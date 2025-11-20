@@ -10,7 +10,7 @@
 
 ## 📸 Demo Live
 
-Visita il portfolio: **[andrew236451.github.io/portfolio](https://andrew236451.github.io/portfolio)**
+Visita il portfolio: **[andrew236451.github.io](https://andrew236451.github.io)**
 
 ---
 
