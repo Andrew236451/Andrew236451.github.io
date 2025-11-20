@@ -1,0 +1,30 @@
+{
+  "name": "andrew-portfolio",
+  "version": "1.0.0",
+  "description": "Modern Developer Portfolio Template - Open Source",
+  "main": "index.html",
+  "homepage": "https://github.com/Andrew236451/portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andrew236451/portfolio.git"
+  },
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "server": "http-server -p 8000 -o"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "template",
+    "open-source",
+    "github-pages",
+    "web",
+    "design"
+  ],
+  "author": "Andrew",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
+

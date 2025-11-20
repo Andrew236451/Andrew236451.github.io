@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio di Andrew - Web Developer & Designer. Progetti, skills e contatti.">
+    <meta name="keywords" content="web developer, designer, portfolio, HTML, CSS, JavaScript, PHP, Python">
+    <meta name="author" content="Andrew">
+    <meta property="og:title" content="Andrew - Web Developer & Designer">
+    <meta property="og:description" content="Portfolio professionale di Andrew con progetti e skills">
+    <meta property="og:type" content="website">
+    <title>Andrew - Web Developer & Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">
+                    <span class="logo-icon">&lt;/&gt;</span>
+                    Andrew<span>.dev</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Progetti</a></li>
+                <li><a href="#contact" class="nav-link">Contatti</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <canvas id="canvas"></canvas>
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="code-tag">
+                    <span class="tag-icon">👨‍💻</span>
+                    fullstack_developer()
+                </div>
+
+                <h1 class="hero-title">
+                    Ciao, sono <span class="gradient-text">Andrew</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    Creo esperienze digitali straordinarie con code e creativity
+                </p>
+
+                <p class="hero-description">
+                    Web Developer & Designer specializzato in soluzioni frontend eleganti e backend robusti.
+                    Trasformo idee in realtà usando le ultime tecnologie.
+                </p>
+
+                <div class="tech-showcase">
+                    <div class="tech-item-small">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-item-small">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech-item-small">
+                        <i class="fab fa-js-square"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item-small">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="tech-item-small">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Vedi Progetti
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-arrow-right"></i> Contattami
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Progetti</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Anni Exp</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Passione</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-graphic">
+                <div class="floating-card">
+                    <div class="card-top">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line short"></div>
+                    </div>
+                </div>
+
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+                <div class="floating-shape shape-3"></div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scorri per scoprire</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Chi Sono</h2>
+            <div class="about-content">
+                <div class="about-left">
+                    <div class="about-image">
+                        <div class="floating-card-about card-about-1">
+                            <i class="fas fa-code"></i>
+                            <p>Clean Code</p>
+                        </div>
+                        <div class="floating-card-about card-about-2">
+                            <i class="fas fa-bolt"></i>
+                            <p>Fast</p>
+                        </div>
+                        <div class="floating-card-about card-about-3">
+                            <i class="fas fa-palette"></i>
+                            <p>Creative</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <h3>Andrew Digiorgi</h3>
+                    <div class="about-text">
+                        const andrew = {
+                        <br>
+                        &nbsp;&nbsp;name: "Developer",
+                        <br>
+                        &nbsp;&nbsp;role: "Full Stack",
+                        <br>
+                        &nbsp;&nbsp;passion: "Innovation"
+                        <br>
+                        }
+                    </div>
+                    <p class="about-description">
+                        Sono uno studente, web developer e designer appassionato di creare soluzioni digitali innovative.
+                        Attualmente collaboro su progetti entusiasmanti che uniscono creatività e tecnologia.
+                    </p>
+                    <p class="about-description">
+                        <strong>La mia filosofia:</strong> "Creare, sperimentare, migliorare — ogni riga di codice è un passo avanti."
+                    </p>
+                    <div class="about-badges">
+                        <span class="badge">Problem Solver</span>
+                        <span class="badge">Creative Thinker</span>
+                        <span class="badge">Team Player</span>
+                        <span class="badge">Always Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Le Mie Competenze</h2>
+
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Front-end</h3>
+                    <p class="category-desc">UI/UX con HTML, CSS e JavaScript moderni</p>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML5</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>CSS3</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Back-end</h3>
+                    <p class="category-desc">Server-side programming e databases</p>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>PHP</span>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Python</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p class="category-desc">UI/UX Design e Creative Tools</p>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>UI/UX</span>
+                                <span class="skill-percent">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Figma</span>
+                                <span class="skill-percent">87%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 87%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Tools & Collaboration</h3>
+                    <p class="category-desc">Strumenti e metodologie di lavoro</p>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Git/GitHub</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Teamwork</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="tech-stack">
+                <h3 class="tech-title">Tech Stack</h3>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js-square"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Progetti Attuali</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="featured-badge">
+                        <i class="fas fa-star"></i> Featured
+                    </div>
+                    <div class="project-header">
+                        <div class="project-icon large">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge active">CEO & Founder</span>
+                        </div>
+                    </div>
+                    <h3>ticly - Startup Innovation</h3>
+                    <p>Sono CEO e fondatore di <strong>ticly</strong>, una startup innovativa che sviluppa applicazioni e strumenti digitali rivoluzionari. Guido il team nello sviluppo di soluzioni cutting-edge con un focus su scalabilità e impatto.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Full Stack</span>
+                        <span class="tech-badge">Leadership</span>
+                        <span class="tech-badge">Innovation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ticly.it" class="project-link primary" target="_blank">
+                            <i class="fas fa-globe"></i> Visita ticly.it
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon large">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge active">In Sviluppo</span>
+                        </div>
+                    </div>
+                    <h3>Collaborazione con Lori</h3>
+                    <p>Lavoro insieme al mio amico <a href="https://github.com/lori28167" target="_blank">Lori28167</a> su progetti innovativi e entusiasmanti.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">React</span>
+                    </div>
+                    <a href="https://github.com/lori28167" class="project-link" target="_blank">
+                        Scopri di più <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon large">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge active">Attivo</span>
+                        </div>
+                    </div>
+                    <h3>YouTube Channel</h3>
+                    <p>Canale YouTube dedicato a contenuti gaming con focus sulla community e l'intrattenimento di qualità.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Content Creation</span>
+                        <span class="tech-badge">Gaming</span>
+                    </div>
+                    <a href="https://www.youtube.com/@Andrew_v2.0" class="project-link" target="_blank">
+                        Visita il canale <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon large">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge success">Operativo</span>
+                        </div>
+                    </div>
+                    <h3>Minecraft Server: Nexus MC</h3>
+                    <p>Costruendo un'esperienza di gioco unica e una community dedicata su Minecraft con features innovative.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Minecraft</span>
+                        <span class="tech-badge">Community</span>
+                    </div>
+                    <a href="#contact" class="project-link">
+                        Contattami per info <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section class="goals">
+        <div class="container">
+            <h2 class="section-title">I Miei Obiettivi</h2>
+            <div class="goals-content">
+                <p class="goals-text">
+                    Continuare a migliorare come developer e designer, imparando qualcosa di nuovo ogni giorno e costruendo progetti che portano idee alla vita attraverso <strong>creatività e tecnologia</strong>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contattami</h2>
+            <p class="contact-subtitle">Hai una domanda o vuoi collaborare? Sono sempre disponibile!</p>
+            <div class="contact-links">
+                <a href="https://github.com/Andrew236451" class="contact-btn" target="_blank">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+                <a href="mailto:andreaaziendale8@gmail.com" class="contact-btn">
+                    <i class="fas fa-envelope"></i>
+                    Email
+                </a>
+                <a href="https://www.youtube.com/@Andrew_v2.0" class="contact-btn" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                    YouTube
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Andrew. Made with <span class="heart">❤️</span> by Andrew236451</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
